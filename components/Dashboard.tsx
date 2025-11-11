@@ -8,15 +8,15 @@ export const Dashboard: React.FC = () => {
   const handleDownload = () => {
     const element = document.createElement('a');
     const fileContent = `
-APEX RENDER - LICENSE KEY
+FOLIORANKAI - LICENSE KEY
 -------------------------
 KEY: XXXX-YYYY-ZZZZ-AAAA
-VERSION: 2.4.1
+VERSION: 1.0.1
 
 Installation Instructions:
 1. Run the installer.
 2. Enter the key above when prompted.
-3. Enjoy faster rendering!
+3. Enjoy faster culling!
 
 Thank you for your purchase!
 `;
@@ -38,7 +38,7 @@ Thank you for your purchase!
         <div className="absolute top-0 right-0 -mt-12 -mr-12 w-48 h-48 bg-brand-500/20 blur-3xl rounded-full"></div>
         <div className="relative z-10">
           <h1 className="text-3xl md:text-4xl font-bold text-white mb-4">
-            Welcome to Apex Pro.
+            Welcome to FolioRankAI.
           </h1>
           <p className="text-brand-200 max-w-xl text-lg">
             Your license has been successfully activated. Download your software
@@ -62,10 +62,10 @@ Thank you for your purchase!
               </div>
               <div className="flex-1">
                 <h3 className="text-lg font-semibold text-white">
-                  Apex Render v2.4.1 Installer
+                FolioRankAI v1.0.1 Installer
                 </h3>
                 <p className="text-zinc-400 text-sm mb-1">
-                  macOS (Universal) & Windows 10/11 • 2.4 GB
+                  macOS (Universal) • 1.2 GB
                 </p>
                 <div className="flex items-center gap-2 text-xs text-zinc-500">
                   <Star className="w-3 h-3 fill-zinc-500" />
@@ -91,14 +91,14 @@ Thank you for your purchase!
             <div className="rounded-2xl overflow-hidden ring-1 ring-zinc-800 bg-black">
               <VideoPlayer
                 title="Masterclass: From Zero to Render"
-                thumbnailUrl="https://picsum.photos/id/180/1920/1080" // Different placeholder for paid content
+                thumbnailUrl="https://raw.githubusercontent.com/0ethel0zhang/folio_magic/refs/heads/main/flying_lens_trans.png" // Different placeholder for paid content
                 isLocked={false}
               />
             </div>
             <p className="mt-4 text-zinc-400 leading-relaxed">
-              In this 45-minute deep dive, we cover everything from initial
-              setup, importing your first scene, optimizing light paths, and
-              using the new AI-denoising features exclusive to Pro users.
+              This 30-second fast onboarding video covers everything from initial
+              setup, creating your first taste profile, upload pictures with metadata,
+              using the new AI-scoring features exclusive to FolioRankAI users.
             </p>
           </section>
         </div>

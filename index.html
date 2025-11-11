@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html lang="en" class="dark">
   <head>
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline' https://cdn.tailwindcss.com https://unpkg.com https://aistudiocdn.com; object-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' file: data:;">
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Apex Render - Pro Software</title>
+    <title>FolioRankAI - AI Culling Software</title>
     <meta name="description" content="Unlock the ultimate rendering tool." />
     <script src="https://cdn.tailwindcss.com"></script>
+      <!-- Babel is required to run JSX/TSX directly in the browser without a build step -->
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
     <script>
       tailwind.config = {
         darkMode: 'class',
@@ -73,5 +76,7 @@
 </head>
   <body class="antialiased min-h-screen flex flex-col">
     <div id="root" class="flex-grow flex flex-col"></div>
+        <!-- data-type="module" tells Babel to treat this as an ES module with imports -->
+    <script type="text/babel" data-type="module" data-presets="typescript,react" src="/index.tsx"></script>
   </body>
 </html>

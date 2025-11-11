@@ -9,7 +9,7 @@ export const Navbar: React.FC = () => {
           <Cuboid className="w-6 h-6 text-white" />
         </div>
         <span className="text-xl font-bold tracking-tight text-white">
-          Apex<span className="text-zinc-400">Render</span>
+          FolioRankAI<span className="text-zinc-400">AI Culling</span>
         </span>
       </div>
       <div>
@@ -20,7 +20,7 @@ export const Navbar: React.FC = () => {
           Features
         </a>
         <span className="text-xs font-mono text-brand-400 py-1 px-3 bg-brand-400/10 rounded-full border border-brand-400/20">
-          v2.4.1 BETA
+          v1.0.1 BETA
         </span>
       </div>
     </nav>

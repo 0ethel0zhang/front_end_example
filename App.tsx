@@ -48,7 +48,7 @@ const App: React.FC = () => {
         {isPaid ? <Dashboard /> : <LandingPage onUnlock={handleUnlock} />}
       </main>
       <footer className="py-8 text-center text-zinc-600 text-sm border-t border-zinc-900">
-        <p>© {new Date().getFullYear()} Apex Render Technologies. All rights reserved.</p>
+        <p>© {new Date().getFullYear()} FolioRank AI Technologies. All rights reserved.</p>
         {!isPaid && (
           <p className="mt-2 text-xs">
             This is a demo. Payments are simulated.

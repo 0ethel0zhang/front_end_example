@@ -18,10 +18,9 @@ export const VideoPlayer: React.FC<VideoProps> = ({
   if (isPlaying) {
     return (
       <div className="w-full aspect-video rounded-xl overflow-hidden shadow-2xl ring-1 ring-zinc-800 bg-black relative animate-fade-in">
-        {/* Placeholder for actual video embed. Replace src with actual video URL (YouTube/Vimeo/MP4) */}
         <iframe
           className="w-full h-full"
-          src="https://www.youtube.com/embed/lxrwzpMJwVY?autoplay=1&rel=0&modestbranding=1"
+          src="https://www.youtube.com/embed/McVdKSb3bKQ?autoplay=1&rel=0&modestbranding=1"
           title={title}
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowFullScreen

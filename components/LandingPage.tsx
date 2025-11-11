@@ -47,19 +47,19 @@ export const LandingPage: React.FC<LandingPageProps> = ({ onUnlock }) => {
               <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-brand-400 opacity-75"></span>
               <span className="relative inline-flex rounded-full h-2 w-2 bg-brand-500"></span>
             </span>
-            Now Available for macOS & Windows
+            Now Available for macOS
           </div>
 
           <h1 className="text-5xl md:text-7xl font-extrabold tracking-tighter text-white max-w-4xl mx-auto leading-[1.1]">
-            Render your dreams,
+            Find your best photos,
             <br />
             <span className="bg-gradient-to-r from-brand-400 via-brand-500 to-indigo-400 bg-clip-text text-transparent">
               faster than reality.
             </span>
           </h1>
           <p className="text-xl text-zinc-400 max-w-2xl mx-auto">
-            Apex Render is the next-generation engine designed for speed,
-            precision, and seamless integration into your existing pipeline.
+            FolioRankAI is the AI-native assistant designed for speed,
+            personalization, and seamless integration into your photo editing existing pipeline.
           </p>
 
           <div className="pt-8 flex flex-col sm:flex-row items-center justify-center gap-4">
@@ -70,7 +70,7 @@ export const LandingPage: React.FC<LandingPageProps> = ({ onUnlock }) => {
               Get Instant Access - {PRICE}
             </button>
             <p className="text-sm text-zinc-500 sm:hidden">
-              One-time payment. Lifetime access.
+              Pay-per-photo access or subscription plans.
             </p>
           </div>
         </div>
@@ -84,7 +84,7 @@ export const LandingPage: React.FC<LandingPageProps> = ({ onUnlock }) => {
             />
           </div>
           <p className="text-center text-sm text-zinc-500 mt-4">
-            See Apex Render in action (1:45)
+            See FolioRank in action (0:04)
           </p>
         </div>
       </section>
@@ -93,14 +93,14 @@ export const LandingPage: React.FC<LandingPageProps> = ({ onUnlock }) => {
       <section className="w-full bg-zinc-950 border-y border-zinc-900 py-10">
         <div className="max-w-6xl mx-auto px-6 text-center">
           <p className="text-zinc-500 font-medium mb-6 uppercase tracking-widest text-sm">
-            Trusted by artists from
+            Trusted by artists from a whole range of life
           </p>
           <div className="flex flex-wrap justify-center items-center gap-12 opacity-50 grayscale">
             {/* Fake Logos */}
-            <span className="text-2xl font-black text-zinc-300">PIXELAR</span>
-            <span className="text-2xl font-black text-zinc-300">NEXUS Studio</span>
-            <span className="text-2xl font-black text-zinc-300">VORTEX</span>
-            <span className="text-2xl font-black text-zinc-300">CHROMATIC</span>
+            <span className="text-2xl font-black text-zinc-300">Modeling Agencies</span>
+            <span className="text-2xl font-black text-zinc-300">Indepdendent Photographers</span>
+            <span className="text-2xl font-black text-zinc-300">YouTube/UGC Influencers</span>
+            <span className="text-2xl font-black text-zinc-300">Models</span>
           </div>
         </div>
       </section>
@@ -137,7 +137,7 @@ export const LandingPage: React.FC<LandingPageProps> = ({ onUnlock }) => {
                 30-Day Money Back Guarantee
               </h4>
               <p className="text-zinc-400">
-                If you're not rendering faster within the first month, we'll
+                If you're not selecting your best pictures faster within the first month, we'll
                 refund every cent. No questions asked.
               </p>
             </div>
