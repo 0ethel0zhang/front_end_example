@@ -1,3 +1,5 @@
+import React from 'react';
+
 export interface VideoProps {
   thumbnailUrl: string;
   videoUrl?: string; // Optional: if we want to use an actual video source
